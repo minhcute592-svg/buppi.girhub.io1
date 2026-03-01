@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* Khung bao ngoài của mục Giới thiệu */
+        .intro-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 600px;
+            font-family: Arial, sans-serif;
+            /* Sử dụng Flexbox để đẩy ảnh sang bên phải */
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        /* Tiêu đề mục */
+        .intro-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        /* Phần thông tin văn bản */
+        .intro-content {
+            line-height: 1.8;
+        }
+
+        /* Định dạng ảnh đại diện */
+        .avatar-img {
+            width: 150px;
+            height: auto;
+            border: 1px solid #ddd;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="intro-container">
+        <div class="intro-text-section">
+            <div class="intro-title">Giới thiệu chung</div>
+            <div class="intro-content">
+                Họ tên: Nguyễn Văn A <br>
+                Nơi sinh: Thành phố Hồ Chí Minh <br>
+                Điện thoại: 090-xxxx-xxx <br>
+                Email: nguyenvana@gmail.com
+            </div>
+        </div>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKgxhwcHlVo9Zv9YUEo6cVWqBZci1cAy4GQg&s" alt="Ảnh đại diện" class="avatar-img">
+    </div>
+
+</body>
+</html>
